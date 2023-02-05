@@ -12,13 +12,33 @@ export default function Home() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <main className='scroll-smooth'>
+
+      <main className='leading-7 bg-gray-900 scroll-smooth text-slate-300'>
         <Header />
-        <div className='min-h-screen leading-7 bg-gray-900'>
-          <section
-            id='home'
-            className='flex flex-col items-center h-full p-6 text-slate-300'
-          >
+        <div className='fixed rotate-90 -right-12 bottom-1/4'>
+          <p className='text-center text-slate-400'>rroyson2@gmail.com</p>
+        </div>
+        <div className='fixed flex flex-col text-slate-400 bottom-1/4 left-6'>
+          <ul>
+            <li className='py-4'>
+              <a href='http://github.com/rroyson'>
+                <Image src='/github.png' alt='' height={50} width={50} />
+              </a>
+            </li>
+            <li className='py-4'>
+              <a href='http://github.com/rroyson'>
+                <Image src='/linkedin.png' alt='' height={50} width={50} />
+              </a>
+            </li>
+            <li className='py-4' s>
+              <a href='http://github.com/rroyson'>
+                <Image src='/codepen.png' alt='' height={50} width={50} />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id='home' className='pt-24'>
+          <section className='flex flex-col items-center min-h-screen'>
             <h1 className='py-3 text-4xl font-bold'>Welcome</h1>
             <Image
               className='items-center mx-auto rounded-full '
@@ -40,20 +60,9 @@ export default function Home() {
             </p>
           </section>
         </div>
-        <div className='flex items-center justify-center h-screen text-slate-300'>
-          <section
-            id='technologies'
-            className='flex flex-col w-3/4 p-6 text-center gap-y-10 columns-3 h-3/4'
-          >
-            <h1 className='py-3 text-4xl font-bold'>Technologies</h1>
-            {/* <Image
-              className='items-center mx-auto rounded-full '
-              height={250}
-              width={250}
-              src='/Profile.jpeg'
-              alt='headshot'
-            /> */}
-
+        <div id='technologies' className='min-h-screen pt-24 leading-7'>
+          <section className='flex flex-col items-center text-center'>
+            <h1 className='py-8 text-4xl font-bold'>Technologies</h1>
             <p className='mx-24 text-justify'>
               Welcome to my personal portfolio! I'm a highly motivated software
               developer with a passion for creating innovative and user-friendly
@@ -66,20 +75,9 @@ export default function Home() {
             </p>
           </section>
         </div>
-        <div className='min-h-screen leading-7 bg-gray-900'>
-          <section
-            id='projects'
-            className='flex flex-col items-center h-full p-6 text-slate-300'
-          >
+        <div id='projects' className='min-h-screen pt-24'>
+          <section className='flex flex-col items-center'>
             <h1 className='py-3 text-4xl font-bold'>Projects</h1>
-            {/* <Image
-              className='items-center mx-auto rounded-full '
-              height={250}
-              width={250}
-              src='/Profile.jpeg'
-              alt='headshot'
-            /> */}
-
             <p className='mx-24 text-justify'>
               Welcome to my personal portfolio! I'm a highly motivated software
               developer with a passion for creating innovative and user-friendly
