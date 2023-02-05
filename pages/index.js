@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <main className='scroll-smooth'>
         <Header />
-        <div id='home' className='pt-24 leading-7 bg-gray-900 '>
+        <div id='home' className='pt-24 leading-7 bg-gray-900'>
           <section className='flex flex-col items-center min-h-screen text-slate-300'>
             <h1 className='py-3 text-4xl font-bold'>Welcome</h1>
             <Image
@@ -37,20 +37,9 @@ export default function Home() {
             </p>
           </section>
         </div>
-        <div
-          id='technologies'
-          className='flex justify-center min-h-screen text-slate-300'
-        >
-          <section className='flex flex-col w-3/4 text-center gap-y-10 columns-3'>
-            <h1 className='py-3 text-4xl font-bold'>Technologies</h1>
-            {/* <Image
-              className='items-center mx-auto rounded-full '
-              height={250}
-              width={250}
-              src='/Profile.jpeg'
-              alt='headshot'
-            /> */}
-
+        <div id='technologies' className='min-h-screen pt-24 leading-7'>
+          <section className='flex flex-col items-center text-center'>
+            <h1 className='py-8 text-4xl font-bold'>Technologies</h1>
             <p className='mx-24 text-justify'>
               Welcome to my personal portfolio! I'm a highly motivated software
               developer with a passion for creating innovative and user-friendly
@@ -63,17 +52,9 @@ export default function Home() {
             </p>
           </section>
         </div>
-        <div id='projects' className='min-h-screen leading-7 bg-gray-900'>
+        <div id='projects' className='min-h-screen pt-24 leading-7 bg-gray-900'>
           <section className='flex flex-col items-center text-slate-300'>
             <h1 className='py-3 text-4xl font-bold'>Projects</h1>
-            {/* <Image
-              className='items-center mx-auto rounded-full '
-              height={250}
-              width={250}
-              src='/Profile.jpeg'
-              alt='headshot'
-            /> */}
-
             <p className='mx-24 text-justify'>
               Welcome to my personal portfolio! I'm a highly motivated software
               developer with a passion for creating innovative and user-friendly
