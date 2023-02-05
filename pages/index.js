@@ -12,10 +12,33 @@ export default function Home() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <main className='scroll-smooth'>
+
+      <main className='leading-7 bg-gray-900 scroll-smooth text-slate-300'>
         <Header />
-        <div id='home' className='pt-24 leading-7 bg-gray-900'>
-          <section className='flex flex-col items-center min-h-screen text-slate-300'>
+        <div className='fixed rotate-90 -right-12 bottom-1/4'>
+          <p className='text-center text-slate-400'>rroyson2@gmail.com</p>
+        </div>
+        <div className='fixed flex flex-col text-slate-400 bottom-1/4 left-6'>
+          <ul>
+            <li className='py-4'>
+              <a href='http://github.com/rroyson'>
+                <Image src='/github.png' alt='' height={50} width={50} />
+              </a>
+            </li>
+            <li className='py-4'>
+              <a href='http://github.com/rroyson'>
+                <Image src='/linkedin.png' alt='' height={50} width={50} />
+              </a>
+            </li>
+            <li className='py-4' s>
+              <a href='http://github.com/rroyson'>
+                <Image src='/codepen.png' alt='' height={50} width={50} />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id='home' className='pt-24'>
+          <section className='flex flex-col items-center min-h-screen'>
             <h1 className='py-3 text-4xl font-bold'>Welcome</h1>
             <Image
               className='items-center mx-auto rounded-full '
@@ -52,8 +75,8 @@ export default function Home() {
             </p>
           </section>
         </div>
-        <div id='projects' className='min-h-screen pt-24 leading-7 bg-gray-900'>
-          <section className='flex flex-col items-center text-slate-300'>
+        <div id='projects' className='min-h-screen pt-24'>
+          <section className='flex flex-col items-center'>
             <h1 className='py-3 text-4xl font-bold'>Projects</h1>
             <p className='mx-24 text-justify'>
               Welcome to my personal portfolio! I'm a highly motivated software
