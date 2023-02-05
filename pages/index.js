@@ -14,11 +14,8 @@ export default function Home() {
       </Head>
       <main className='scroll-smooth'>
         <Header />
-        <div className='min-h-screen leading-7 bg-gray-900'>
-          <section
-            id='home'
-            className='flex flex-col items-center h-full p-6 text-slate-300'
-          >
+        <div id='home' className='pt-24 leading-7 bg-gray-900 '>
+          <section className='flex flex-col items-center min-h-screen text-slate-300'>
             <h1 className='py-3 text-4xl font-bold'>Welcome</h1>
             <Image
               className='items-center mx-auto rounded-full '
@@ -40,11 +37,11 @@ export default function Home() {
             </p>
           </section>
         </div>
-        <div className='flex items-center justify-center h-screen text-slate-300'>
-          <section
-            id='technologies'
-            className='flex flex-col w-3/4 p-6 text-center gap-y-10 columns-3 h-3/4'
-          >
+        <div
+          id='technologies'
+          className='flex justify-center min-h-screen text-slate-300'
+        >
+          <section className='flex flex-col w-3/4 text-center gap-y-10 columns-3'>
             <h1 className='py-3 text-4xl font-bold'>Technologies</h1>
             {/* <Image
               className='items-center mx-auto rounded-full '
@@ -66,11 +63,8 @@ export default function Home() {
             </p>
           </section>
         </div>
-        <div className='min-h-screen leading-7 bg-gray-900'>
-          <section
-            id='projects'
-            className='flex flex-col items-center h-full p-6 text-slate-300'
-          >
+        <div id='projects' className='min-h-screen leading-7 bg-gray-900'>
+          <section className='flex flex-col items-center text-slate-300'>
             <h1 className='py-3 text-4xl font-bold'>Projects</h1>
             {/* <Image
               className='items-center mx-auto rounded-full '
