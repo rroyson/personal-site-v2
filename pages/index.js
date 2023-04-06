@@ -48,7 +48,7 @@ export default function Home() {
               alt='headshot'
             />
 
-            <p className='mx-24 text-justify'>
+            <p className='max-w-3xl'>
               Welcome to my personal portfolio! I'm a highly motivated software
               developer with a passion for creating innovative and user-friendly
               solutions. With a background in computer science and a love for
@@ -63,7 +63,7 @@ export default function Home() {
         <div id='technologies' className='min-h-screen pt-24 leading-7'>
           <section className='flex flex-col items-center text-center'>
             <h1 className='py-8 text-4xl font-bold'>Technologies</h1>
-            <p className='mx-24 text-justify'>
+            <p className='max-w-3xl'>
               Welcome to my personal portfolio! I'm a highly motivated software
               developer with a passion for creating innovative and user-friendly
               solutions. With a background in computer science and a love for
@@ -78,7 +78,7 @@ export default function Home() {
         <div id='projects' className='min-h-screen pt-24'>
           <section className='flex flex-col items-center'>
             <h1 className='py-3 text-4xl font-bold'>Projects</h1>
-            <p className='mx-24 text-justify'>
+            <p className='max-w-3xl'>
               Welcome to my personal portfolio! I'm a highly motivated software
               developer with a passion for creating innovative and user-friendly
               solutions. With a background in computer science and a love for
